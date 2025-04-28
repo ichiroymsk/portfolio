@@ -36,7 +36,7 @@ function Connect() {
           </a>
         </div>
       </div>
-      <Link to="/" className="back-to-home-link">
+      <Link to="" className="back-to-home-link">
         <div className="back-to-home">back to home</div>
       </Link>
     </div>

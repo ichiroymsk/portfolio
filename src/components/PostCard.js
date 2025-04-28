@@ -8,7 +8,7 @@ function PostCard() {
     <div className="PostCardFrame">
       {blogs.map((blog) => (
         <div className="blog-post-cards" key={blog.id}>
-          <Link to={`/blogs/${blog.id}`}>
+          <Link to={`blogs/${blog.id}`}>
             <div>
               <img
                 className="blog-post-image"

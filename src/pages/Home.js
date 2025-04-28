@@ -10,7 +10,7 @@ function Home() {
           <p>Thank you for visiting my website!</p>
         </div>
       </Link>
-      <Link to="/blogs">
+      <Link to="blogs">
         <div className="blogs">
           <h1>BLOGS</h1>
           <p>Check out my engineering blogs!</p>
@@ -20,7 +20,7 @@ function Home() {
         <h1>ABOUT ME</h1>
         <p>My experiences, hobbies and more!</p>
       </div>
-      <Link to="/connect">
+      <Link to="connect">
         <div className="connect">
           <h1>CONNECT</h1>
           <p>I want to connect with you on LinkedIn, GitHub and X!</p>
