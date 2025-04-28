@@ -1,4 +1,5 @@
 import "./Connect.css";
+import { Link } from "react-router-dom";
 
 function Connect() {
   return (
@@ -35,9 +36,9 @@ function Connect() {
           </a>
         </div>
       </div>
-      <a href="/" className="back-to-home-link">
+      <Link to="/" className="back-to-home-link">
         <div className="back-to-home">back to home</div>
-      </a>
+      </Link>
     </div>
   );
 }
