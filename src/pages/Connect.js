@@ -14,7 +14,7 @@ function Connect() {
             <div className="linkedin-button">
               <img
                 className="linkedin-logo"
-                src="/LinkedInLogo.png"
+                src="LinkedInLogo.png"
                 alt="LinkedIn"
                 style={{ width: "100px", height: "100px" }}
               />
@@ -27,7 +27,7 @@ function Connect() {
             <div className="github-button">
               <img
                 className="github-logo"
-                src="/GitHubLogo.png"
+                src="GitHubLogo.png"
                 alt="GitHub"
                 style={{ width: "100px", height: "100px" }}
               />
