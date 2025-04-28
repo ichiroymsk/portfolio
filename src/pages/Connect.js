@@ -8,6 +8,7 @@ function Connect() {
           <a
             href="https://www.linkedin.com/in/ichiro-yamasaki-1692aa168/"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="linkedin-button">
               <img
@@ -21,7 +22,7 @@ function Connect() {
           </a>
         </div>
         <div className="github-wrapper">
-          <a href="https://github.com/ichi-theinterface" target="_blank">
+          <a href="https://github.com/ichi-theinterface" target="_blank" rel="noreferrer">
             <div className="github-button">
               <img
                 className="github-logo"

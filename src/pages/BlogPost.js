@@ -4,21 +4,20 @@ import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 
 function BlogPage() {
-  const { id } = useParams();
+  const { id: paramId } = useParams();
   const [markdown, setMarkdown] = useState("");
 
-  if (typeof id !== "string") {
-    id = String(id); // Convert to string if it's not already a string
-  }
+  // Convert id to string if needed
+  const id = typeof paramId === "string" ? paramId : String(paramId);
 
-  let s3URL =
+  const s3URL =
     "https://ichiro-dev-portfolio-blog-md.s3.amazonaws.com/" + id + ".md";
 
   useEffect(() => {
     fetch(s3URL)
       .then((response) => response.text())
       .then((text) => setMarkdown(text));
-  }, []);
+  }, [s3URL]);
 
   return (
     <div className="canvas">
