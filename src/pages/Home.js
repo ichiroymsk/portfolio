@@ -13,13 +13,15 @@ function Home() {
       <Link to="/blogs">
         <div className="blogs">
           <h1>BLOGS</h1>
-          <p>Check out my engineering blogs!</p>
+          <p>Check out my IT and engineering blogs!</p>
         </div>
       </Link>
-      <div className="aboutme">
-        <h1>ABOUT ME</h1>
-        <p>My experiences, hobbies and more!</p>
-      </div>
+      <Link to="/aboutme">
+        <div className="aboutme">
+          <h1>ABOUT ME</h1>
+          <p>My experiences, hobbies and more!</p>
+        </div>
+      </Link>
       <Link to="/connect">
         <div className="connect">
           <h1>CONNECT</h1>

@@ -4,6 +4,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Connect from "./pages/Connect";
+import AboutMe from "./pages/AboutMe";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -12,6 +13,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/aboutme" element={<AboutMe />} />
       <Route path="/connect" element={<Connect />} />
     </Routes>
   </BrowserRouter>
