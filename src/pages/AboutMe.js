@@ -67,14 +67,14 @@ function AboutMe() {
               </p>
             </li>
             <li>
-              <strong>0.5 year – Wiz (Cloud Security Startup)</strong>
+              <strong>0.5 year – Wiz (Cloud Security Startup) Solutions Support Engineer</strong>
               <p>
                 Delivered customer-facing technical solutions. Reproduced infrastructure issues 
                 using Terraform to assist in root cause analysis and resolution.
               </p>
             </li>
             <li>
-              <strong>1 year – StoreEase (Startup)</strong>
+              <strong>1 year – StoreEase (Startup) Solutions Engineer</strong>
               <p>
                 Leading infrastructure and provisioning initiatives. Built automation for kiosk systems, 
                 real-time monitoring, and internal tooling.
@@ -87,7 +87,7 @@ function AboutMe() {
           <h2 className="section-title">🎯 What I'm Working Toward</h2>
           <ul className="aboutme-list">
             <li>
-              Becoming a <strong>high-impact technical leader</strong>, blending engineering excellence with business outcomes.
+              Becoming a high-impact technical leader, blending engineering excellence and customer obsession with business outcomes.
             </li>
             <li>
               Delivering MVPs as services (e.g., provisioning tools, AI-powered dashboards) to help businesses streamline IT operations.
