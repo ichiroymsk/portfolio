@@ -1,15 +1,14 @@
-import "./Blogs.css";
-import PostCard from "../components/PostCard";
+import { useEffect } from "react";
 
 function Blogs() {
+  useEffect(() => {
+    // Redirect to Hashnode blog
+    window.location.href = "https://ichiro.hashnode.dev/";
+  }, []);
+
   return (
-    <div className="canvas">
-      <div className="BlogList-Header-Frame">
-        <h1 className="BlogList-Header">My Engineering Blog</h1>
-      </div>
-      <div className="blog-post-frame">
-        <PostCard />
-      </div>
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+      <p>Redirecting to my blog at Hashnode...</p>
     </div>
   );
 }

@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
-import BlogPost from "./pages/BlogPost";
 import Connect from "./pages/Connect";
 import reportWebVitals from "./reportWebVitals";
 
@@ -13,7 +12,6 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/blogs" element={<Blogs />} />
-      <Route path="/blogs/:id" element={<BlogPost />} />
       <Route path="/connect" element={<Connect />} />
     </Routes>
   </BrowserRouter>
