@@ -19,28 +19,28 @@ function AboutMe() {
           <h2 className="section-title">⚙️ What I Do</h2>
           <ul className="aboutme-list">
             <li>
-              <strong>Infrastructure Automation</strong>:
+              <strong>Infrastructure Automation</strong>
               <p>
                 Automate deployment and configuration of devices (Meraki, PDUs, Raspberry Pi, BrightSign, MDM) 
                 using tools like Retool, FastAPI, Django, and GCP.
               </p>
             </li>
             <li>
-              <strong>Monitoring & Observability</strong>:
+              <strong>Monitoring & Observability</strong>
               <p>
                 Built Grafana dashboards, Prometheus exporters, and alert systems to track internet health, 
                 facility activity, and detect anomalies.
               </p>
             </li>
             <li>
-              <strong>Backend Engineering</strong>:
+              <strong>Backend Engineering</strong>
               <p>
                 Contribute to a Django project and a k3s-based system that manages a fleet of devices 
                 and containerized services with varying configurations.
               </p>
             </li>
             <li>
-              <strong>Cross-Team Support</strong>:
+              <strong>Cross-Team Support</strong>
               <p>
                 Partner closely with Support, Customer Success, and Product teams to troubleshoot edge cases, 
                 resolve incidents, and improve service reliability.
@@ -60,14 +60,7 @@ function AboutMe() {
               </p>
             </li>
             <li>
-              <strong>1 year – AWS Infrastructure</strong>
-              <p>
-                Deployed and scaled physical network infrastructure using internal automation tools. 
-                Managed vendor relationships and coordinated field operations.
-              </p>
-            </li>
-            <li>
-              <strong>1 year – AWS Cloud Support Engineer</strong>
+              <strong>2 year – AWS Cloud Solutions Engineer</strong>
               <p>
                 Provided technical support for enterprise customers running production workloads on AWS. 
                 Diagnosed complex infrastructure and service issues.
